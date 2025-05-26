@@ -32,7 +32,7 @@ Aplicación móvil desarrollada con React Native y Expo que implementa un sistem
 1. **Clonar el repositorio**:
    ```bash
    git clone <url-del-repositorio>
-   cd TP3-ReactNative
+   cd tlp3_tp_expo
    ```
 
 2. **Instalar dependencias**:
