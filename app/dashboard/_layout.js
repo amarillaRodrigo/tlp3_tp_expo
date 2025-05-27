@@ -21,6 +21,7 @@ export default function DashboardLayout() {
           ),
         }}
       />
+      
       <Tabs.Screen
         name="products"
         options={{
@@ -30,6 +31,17 @@ export default function DashboardLayout() {
           ),
         }}
       />
+      
+      <Tabs.Screen
+        name="tareas"
+        options={{
+          title: 'Tareas',
+          tabBarIcon: ({ color, size }) => (
+            <Ionicons name="checkbox-outline" size={size} color={color} />
+          ),
+        }}
+      />
+      
       <Tabs.Screen
         name="calculator"
         options={{
@@ -39,6 +51,7 @@ export default function DashboardLayout() {
           ),
         }}
       />
+      
       <Tabs.Screen
         name="profile"
         options={{
